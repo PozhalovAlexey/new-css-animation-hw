@@ -1,7 +1,7 @@
 export default class Widget {
     collapsing() {
         const container = document.getElementById('widget');
-        const wrapper = document.createElement('button');
+        const wrapper = document.createElement('div');
 
         wrapper.innerHTML = `
       <button class="btn-collapse">Collapse</button>
